@@ -1,1 +1,81 @@
+<html lang="en">
+    <head>
+        <title>Page Title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            body {
+                font-family:Arial, Helvetica, sans-serif;
+            }
 
+            table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.center_for_word {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+        </style>
+    </head>
+    <body>
+
+        <h1>Admin HTML Page Dynamic Zones</h1>
+        <h2>Page: Soccer Teams</h2>
+        <button type="button" onclick="alert('Mr.B men')">Admin HTML pages</button>
+        <button type="button" onclick="alert('Oh, you dont have the right, by the way you dont have the right')">Edit this page</button>
+        <button type="button" onclick="alert('It right in front of you')">View page</button>
+        <h3>Dynamic zones</h3>
+        <div class="topnav">
+            <a class="find" href="find">find</a>       
+            <input type="text" placeholder="Search..">
+            <button type="button" ondblclick="alert('???')">Find</button> 
+        </div>
+          <table>
+            <tr>
+              <th>Zone</th>
+              <th>content</th>
+              <th>action</th>
+            </tr>
+            <tr>
+              <td>liverpool</td>
+              <td><input type="text" placeholder=" "></td>
+              <td><button type="button" onclick="alert('something, something, something.')">V</button></td>
+            </tr>
+            <tr>
+              <td>manutd</td>
+              <td><input type="text" placeholder=" "></td>
+              <td><button type="button" onclick="alert('something, something, something.')">V</button></td>
+            </tr>
+            <div class="center">
+                <button>Centered Button</button>
+              </div>
+        
+            
+    </body>
+</html>
